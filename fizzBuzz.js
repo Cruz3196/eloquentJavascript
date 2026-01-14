@@ -17,13 +17,13 @@ function fizzBuzz() {
   function mod() {
     for (let counter = 1; counter <= 100; counter++) {
       if (counter % 3 == 0 && counter % 5 == 0) {
-        console.log("FizzBuzz");
+        zeroToHundred.push("FizzBuzz");
       } else if (counter % 3 == 0) {
-        console.log("Fizz");
+        zeroToHundred.push("Fizz");
       } else if (counter % 5 == 0) {
-        console.log("Buzz");
+        zeroToHundred.push("Buzz");
       } else {
-        console.log(counter);
+        zeroToHundred.push(counter);
       }
     }
     return zeroToHundred;
