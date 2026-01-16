@@ -1,7 +1,7 @@
 /**
  * This will be a chess board
  *
- * This will need to two loops
+ * This will need two loops
  */
 
 //! My solution
